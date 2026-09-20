@@ -9,8 +9,6 @@ Currently, here are our plans for ORRN.
 
 - x64 and x86 user support! [Yes I care about you x86 users!]
 
-- Windows XP/Vista support! [Via 1 core API]
-
 - Info Tab!
 
 - Selectable themes!
