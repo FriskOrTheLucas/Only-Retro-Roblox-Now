@@ -64,8 +64,6 @@
                         <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" FontSize="12" Style="{StaticResource TextBlockWhite}" Text="Do you rememeber how many&#x0a;slices of bread you've eaten?" TextWrapping="Wrap" />
                         <TextBlock Grid.Column="1" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Style="{StaticResource TextBlockWhite}" Text="Frisk/Lucas [Project Creator]" TextWrapping="Wrap" Margin="0,47,0,0" Grid.Row="1" />
                         <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" FontSize="12" Style="{StaticResource TextBlockWhite}" Text="do you habeth thy chicken?" TextWrapping="Wrap" Margin="0,70,0,0" />
-                        <TextBlock Grid.Column="1" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Style="{StaticResource TextBlockWhite}" Text="Jay-Jay17 [Project Developer]" TextWrapping="Wrap" Margin="5,106,-5,0" Grid.Row="1" />
-                        <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" FontSize="12" Style="{StaticResource TextBlockWhite}" Text="&quot;uhhh idk&quot; -JayJay17" TextWrapping="Wrap" Margin="0,129,0,0" />
                     </Grid>
 
                 </StackPanel>

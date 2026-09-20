@@ -54,10 +54,10 @@
         <GroupBox Padding="2" Foreground="#AFCDE0" Header="Asset Delivery URL" UseLayoutRounding="True" Height="76">
             <StackPanel Height="42">
                 <StackPanel Margin="0,0,0,2" Orientation="Horizontal">
-                    <TextBlock Style="{StaticResource TextBlockWhite}" Text="      Redirects Asset Delivery" Height="16" />
+                    <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockGrey}" Text="Only touch this if you feel like it." />
                 </StackPanel>
                 <!-- This code is so poorly written it's held up by noodle sticks. -->
-                <TextBox Name="AssetURLBox" ToolTip="Enter a custom Asset Delivery URL. Useful for older Windows versions [XP/Vista/7/8/8.1]"/>
+                <TextBox Name="AssetURLBox" ToolTip="Enter a custom Asset Delivery URL. Useful for older Windows versions [7/8/8.1]"/>
             </StackPanel>
         </GroupBox>
     </StackPanel>
