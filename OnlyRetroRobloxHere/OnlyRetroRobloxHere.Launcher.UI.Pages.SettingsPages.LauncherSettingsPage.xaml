@@ -31,7 +31,8 @@
                 <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockWhite}" Text="Your .ROBLOSECURITY cookie." />
                 <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockWhite}" Text="This field is completely optional and will only be used for asset delivery requests." />
                 <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockWhite}" Text="It is recommended take the cookie from a burner account." />
-                <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockGrey}" Text="     NOTE: If you are using default ORRH assets, you may not need a cookie!" />
+                <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockGrey}" Text="NOTE: If you are using default ORRH assets, you may not need a cookie!" />
+                <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockGrey}" Text="however, using a cookie is still recommended." />
                 <PasswordBox Name="RobloxCookieBox" />
             </StackPanel>
         </GroupBox>
@@ -51,10 +52,17 @@
                 </StackPanel>
             </StackPanel>
         </GroupBox>
+        <GroupBox Padding="3" Foreground="#AFCDE0" Header="Launcher Theme" UseLayoutRounding="True">
+            <StackPanel>
+                <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockWhite}" Text="Allows you to change the way the launcher looks." />
+                <ComboBox Width="200" HorizontalAlignment="Left">
+                </ComboBox>
+            </StackPanel>
+        </GroupBox>
         <GroupBox Padding="2" Foreground="#AFCDE0" Header="Asset Delivery URL" UseLayoutRounding="True" Height="76">
             <StackPanel Height="42">
                 <StackPanel Margin="0,0,0,2" Orientation="Horizontal">
-                    <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockGrey}" Text="Only touch this if you feel like it." />
+                    <TextBlock Margin="0,0,0,2" Style="{StaticResource TextBlockGrey}" Text="Only touch this if you feel like it. (leave blank for default)" />
                 </StackPanel>
                 <!-- This code is so poorly written it's held up by noodle sticks. -->
                 <TextBox Name="AssetURLBox" ToolTip="Enter a custom Asset Delivery URL. Useful for older Windows versions [7/8/8.1]"/>

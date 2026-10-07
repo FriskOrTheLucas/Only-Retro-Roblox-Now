@@ -3,6 +3,7 @@
     <AssemblyName>OnlyRetroRobloxHere.Common</AssemblyName>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
     <TargetFramework>netcoreapp6.0</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>12.0</LangVersion>
